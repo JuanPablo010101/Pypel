@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "autenticacao",
     "core",
     "cadastros",
+    "sistema",
 ]
 
 MIDDLEWARE = [
@@ -93,7 +94,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'db_pypel',
         'USER': 'postgres',
-        'PASSWORD': '',
+        'PASSWORD': '32614943',
         'HOST': 'localhost',
         'PORT': '5432', 
     }

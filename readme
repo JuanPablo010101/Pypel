@@ -1,0 +1,6 @@
+Classe Commad
+Coisas definidas do sistemas, ficara em uma pasta chamada sistema.
+Cria uma pasta APP com todas as funcionalidades do DJANGO.
+    python manage.py startapp sistema
+
+    para inicializar python manage.py inicializa_sistema
