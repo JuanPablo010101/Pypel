@@ -1,0 +1,30 @@
+PYPEL - SISTEMA DE GERENCIAMENTO DE PAPELARIA
+VERSÃO 0.01 - sistema de autenticação concluído - 22/01/2025
+https://github.com/JuanPablo010101/Pypel
+Juan Pablo Amorim Joanas
+juanamorimlp@gmail.com
+
+1. ABNT
+Joanas, Juan P. A. PYPEL - Sistema de Gerenciamento de papelaria.
+[s.l.]: [s.n.], 2025. Disponível em: https://github.com/JuanPablo010101/Pypel
+Acesso em : [data de acesso]
+
+2. IEEE 
+
+J. P. A. Joanas, "PYPEL - Sistema de Gerenciamento de Papelaria" [online].
+Disponível em: https://github.com/JuanPablo010101/Pypel
+[Acesso em: dia, mes, ano]
+
+3. APA 
+Joanas, J. P. A. (2025). PYPEL - Sistema de Gerenciamento de Papelaria.
+Acesso em : [data de acesso], de https://github.com/JuanPablo010101/Pypel
+
+4. BibTeX 
+@misc{joanas2025pypel,
+    author = {Joanas, Juan Pablo Amorim},
+    title = {PYPEL - Sistema de Gerenciamento de Papelaria},
+    year = {2025},     
+    howpublished = {\url{ https://github.com/JuanPablo010101/Pypel}},
+    note = {Acessado em: data de acesso}
+    }
+
