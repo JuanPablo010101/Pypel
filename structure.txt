@@ -1,0 +1,31 @@
+Listagem de caminhos de pasta
+O n£mero de s‚rie do volume ‚ 7C53-2B24
+C:.
+ÃÄÄÄautenticacao
+³   ÃÄÄÄmigrations
+³   ³   ÀÄÄÄ__pycache__
+³   ÃÄÄÄtemplates
+³   ÀÄÄÄ__pycache__
+ÃÄÄÄcadastros
+³   ÃÄÄÄmigrations
+³   ³   ÀÄÄÄ__pycache__
+³   ÀÄÄÄ__pycache__
+ÃÄÄÄconfig
+³   ÀÄÄÄ__pycache__
+ÃÄÄÄcore
+³   ÃÄÄÄmigrations
+³   ³   ÀÄÄÄ__pycache__
+³   ÃÄÄÄtemplates
+³   ÀÄÄÄ__pycache__
+ÃÄÄÄresources
+³   ÀÄÄÄstatic
+³       ÃÄÄÄcss
+³       ÃÄÄÄimg
+³       ÀÄÄÄjs
+ÀÄÄÄsistema
+    ÃÄÄÄmanagement
+    ³   ÀÄÄÄcommands
+    ³       ÀÄÄÄ__pycache__
+    ÃÄÄÄmigrations
+    ³   ÀÄÄÄ__pycache__
+    ÀÄÄÄ__pycache__
