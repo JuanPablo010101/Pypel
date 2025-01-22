@@ -4,15 +4,15 @@ from django.contrib.auth.hashers import make_password
 
 #funcao de emergencia para resetar dados do administrador do sistema
 class Command(BaseCommand):
-    help='Reseta o nome e a senha do usuário Administrador'
+    help = 'Reseta o nome e a senha do usuário Administrador'
+
     def handle(self, *args, **kwargs):
         User = get_user_model()
         try:
             admin_user = User.objects.get(id=1)
-            admin_user.email='admin@gmail.com'
             admin_user.nome = 'Administrador'
-            admin_user.password=make_password('123456')
+            admin_user.password = make_password('123456')
             admin_user.save()
             self.stdout.write(self.style.SUCCESS('Dados do Administrador resetados com sucesso!'))
         except User.DoesNotExist:
-            self.stdout.write(self.style.ERROR('Você prescisa rodar o comando inicializa_sistema primeiro!'))    
+            self.stdout.write(self.style.ERROR('Usuário Administrador não encontrado.'))

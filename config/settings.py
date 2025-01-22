@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "core",
     "cadastros",
     "sistema",
+    "widget_tweaks",
 ]
 
 MIDDLEWARE = [
@@ -83,6 +84,14 @@ LOGIN_REDIRECT_URL = 'core:main'
 LOGOUT_REDIRECT_URL = 'autenticacao:login'
 LOGIN_URL = 'autenticacao:login'
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'juanamorimlp@gmail.com'
+EMAIL_HOST_PASSWORD = ' '  # Substitua pela sua senha real
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+
 WSGI_APPLICATION = "config.wsgi.application"
 
 
@@ -94,7 +103,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'db_pypel',
         'USER': 'postgres',
-        'PASSWORD': '32614943',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432', 
     }
@@ -161,3 +170,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 #Configurações de variáveis globais
 NUMBER_GRID_PAGES = 3
 NUMBER_GRID_MODAL = 3
+
+

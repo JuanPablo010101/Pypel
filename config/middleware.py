@@ -1,5 +1,5 @@
 #classe para desabilitar cache e evitar problemas com dados armazenados pelo navegador
-class NoCacheMiddleware:    
+class NoCacheMiddleware:
     def __init__(self, get_response):
         self.get_response = get_response
 
@@ -8,4 +8,4 @@ class NoCacheMiddleware:
         response['Cache-Control'] = 'no-cache, no-store, must-revalidate'
         response['Pragma'] = 'no-cache'
         response['Expires'] = '0'
-        return response 
+        return response
